@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaframework/spring/第七节课/spring_aop_tx/spring_aop_tx.iml" filepath="$PROJECT_DIR$/javaframework/spring/第七节课/spring_aop_tx/spring_aop_tx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaframework/spring/第八节课/spring_aop_tx/spring_aop_tx (1).iml" filepath="$PROJECT_DIR$/javaframework/spring/第八节课/spring_aop_tx/spring_aop_tx (1).iml" />
     </modules>
   </component>
 </project>

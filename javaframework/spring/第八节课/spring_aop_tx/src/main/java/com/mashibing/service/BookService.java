@@ -31,7 +31,7 @@ public class BookService {
      * rollBackfor:
      * rollbackForClassName
      * */
-    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    @Transactional(propagation = Propagation.REQUIRED)
     public void buyBook() {
         bookDao.getPrice(1);
         bookDao.updateBalance("zhangsan", 100);
@@ -48,6 +48,8 @@ public class BookService {
     @Transactional
     public void mult() {
         buyBook();
+
+        System.out.println("---------------------------");
         updatePrice();
     }
 }
